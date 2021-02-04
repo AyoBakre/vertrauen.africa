@@ -1,0 +1,120 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.navbar .nav > li {
+		padding: 0 8px;
+	}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.special-item .owl-nav div.owl-next {
+		right: -10px;
+	}
+	.special-item .owl-nav div.owl-prev {
+		left: -10px;
+	}
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.special-item .owl-nav div.owl-next {
+		right: -10px;
+	}
+	.special-item .owl-nav div.owl-prev {
+		left: -10px;
+	}
+	.slider-title h2 {
+		font-size: 48px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 768px) {
+	div#main-nav-collapse {
+		background: #2c724f;
+	}
+	nav.navbar.navbar-default.navbar-fixed-top {
+		padding: 5px 0px;
+	}
+	.navbar-default .navbar-nav > li > a {
+		text-align: center;
+	}
+
+	.navbar-default .navbar-toggle {
+		border-color: #fff;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.slider-title {
+		padding: 0 20px;
+	}
+	.slider-title h2 {
+		font-size: 18px;
+	}
+	.section-title p {
+		width: 100%;
+		margin: 15px auto 20px auto;
+	}
+	a.btn.btn-normal,
+	a.btn.btn-color,
+	a.btn.btn-normal-border,
+	a.btn-service {
+		border-radius: 0px;
+		font-size: 16px;
+		padding: 6px 16px;
+	}
+	.about-button {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#about-us {
+		padding: 40px 0;
+	}
+	.about-content h2 {
+		padding-bottom: 20px;
+	}
+	.section-padding {
+		padding: 40px 0;
+	}
+	.section-title {
+		margin-bottom: 40px;
+	}
+	.section-title h2 {
+		margin-bottom: 50px;
+	}
+	.section-title p {
+		width: 100%;
+		margin: 15px auto 40px auto;
+	}
+	.chart {
+		margin: 20px auto;
+	}
+
+	ul.portfolio li {
+		margin: 3px;
+	}
+	.single-counter {
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+	.single-team-item {
+		margin-bottom: 30px;
+	}
+	.team-item-img img {
+		width: 100%;
+	}
+	.single-pricing-box {
+		margin-bottom: 20px;
+	}
+	.special-item .owl-nav div.owl-next {
+		right: -10px;
+	}
+	.special-item .owl-nav div.owl-prev {
+		left: -10px;
+	}
+	.single-blog-images img {
+		width: 100%;
+	}
+	.single-blog-box {
+		margin-bottom: 20px;
+	}
+}
