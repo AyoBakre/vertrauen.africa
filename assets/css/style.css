@@ -117,7 +117,7 @@ body {
 }
 
 nav.navbar.navbar-default.navbar-fixed-top {
-	background: #f3f2f2;
+	background: #ffffff;
 }
 
 .sticky.navbar-default {
@@ -172,31 +172,35 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #75a017;
+	color: #75A017;
 	font-size: 14px;
 	line-height: 24px;
-	font-weight: 400;
+	font-weight: 500;
 	text-transform: uppercase;
 	border-bottom: 1px solid transparent;
+
 }
+
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-	color: #ffffff;
-	border-bottom: 1px solid #ffffff;
+	color: #75A017;
+	border-bottom: 1px solid #75A017;
+	font-weight: 600;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #ffffff;
+	color: #75A017;
+	font-weight: 600;
 	background-color: transparent;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid #75A017;
 }
 
 .navbar-default .navbar-nav > .active > a:hover {
 	color: #75a017;
 	background-color: transparent;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid #75A017;
 }
 
 /*Dropdown Style*/
@@ -206,7 +210,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 .navbar-default .navbar-nav > .open > a:hover {
 	color: #75a017;
 	background-color: transparent;
-	border-bottom: 1px solid #ef4836;
+	border-bottom: 1px solid transparent;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -256,14 +260,15 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 .navbar-toggle {
 	border-radius: 0;
+	background-color: #75a017;
 }
 
 .navbar-default .navbar-toggle:hover {
-	border-color: #fff;
+	border-color: #75a017;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #ccc;
+	background-color: #75a017;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -271,7 +276,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar {
-	background-color: #fff;
+	background-color: #75a017;
 }
 
 .navbar-default .navbar-toggle:focus,
@@ -281,7 +286,9 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 #brand {
 	margin-top: 10px;
-	color: #75a017;
+	color: #4D5E26;
+	font-size: 30px;
+	font-weight: bolder;
 }
 
 /* -- Content -- */
@@ -319,7 +326,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
 }
 
 .box-container div {
-    width: 100%;
+    width: 80%;
 	margin: 30px;
 }
 
@@ -388,7 +395,7 @@ line-height: 25px;
 
 .career-img{
 	width: 504px;
-	height: 503px;
+	height: 430px;
 }
 
 .report-box{
@@ -396,11 +403,11 @@ line-height: 25px;
 	width: 500px;
 	height: 120px;
 	background: #4D5E26;
-border-radius: 31px;
+	border-radius: 31px;
 	text-align: center;
-	 display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
 }
 
 .report-box p{
@@ -425,27 +432,22 @@ border-radius: 31px;
 }
 
 /* -- Footer -- */
-
-#footer {
-	background: #f3f2f2;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	padding: 10px 0px;
+footer {
+ background-color: #ffffff;
+ padding: 0;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ margin: 0;
 }
 
-#footer p {
-	color: #75a017;
-}
-
-#footer .left {
+#footer .left{
 	float: left;
 }
 
-#footer .right {
+#footer .right{
 	float: right;
 }
-
 /* Responsiveness */
 
 /* Medium Layout: 1280px. */
