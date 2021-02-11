@@ -488,105 +488,170 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-	footer {
- 		background-color: #ffffff;
- 		padding: 0;
- 		bottom: 0;
- 		width: 100%;
- 		margin-bottom: -700px;
+	.container{
+		width: 90%;
+	}
+
+	.main-content h2{
+	font-weight: 800;
+	font-size: 32px;
+} 
+
+.main-content p{
+	font-size: 16px;	
 }
 
-	.box-container{
-		margin-top: 80px;
-	}
-
-	.para{
-	max-width: 450px;
-	text-align: justify;
-	}	
-
-	.para p{
-		font-size: 16px;
-		margin-left: 5px;
-	}
-
-	.box-text{
-	width: 75%;
-	padding: 20px;
-	margin-left: 15px;
-	}
-
+#brand {
+	font-size: 18px;
 }
 
+.box-container{
+	width: 100%;
+	margin-top: 40px;
+}
 
+.box{
+width: 500px;
+height: 180px;
+}
+
+.box-text{
+	margin-left: 0px;
+}
+
+.box-sign{
+	margin: -10px;
+}
+
+.box-img{
+	margin-top: -90px;
+	margin-right: 5px;
+}
+
+footer {
+ position: relative;
+ bottom: 0;
+ width: 100%;
+ margin: 0;
+ font-size: 12px;
+}
+.career-img{
+	width: 304px;
+	height: 300px;
+}
+
+.report-box{
+	margin-top: 40px;
+	width: 300px;
+	height: 100px;
+}
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+	.container{
+		width: 80%;
+	}
+
 	footer {
- 		background-color: #ffffff;
- 		padding: 0;
- 		bottom: 0;
- 		width: 100%;
- 		margin-bottom: -700px;
-	}
+ position: relative;
+ bottom: 0;
+ width: 100%;
+ margin: 0;
+}
 
-	.box-container{
-		margin-top: 80px;
-	}
+.box-container{
+	width: auto;
+	margin-top: 50px;
+}
 
-	.para{
-	max-width: 450px;
-	text-align: justify;
-	}	
+.box{
+	width: 50px;
+height: 100px;
+}
 
-	.para p{
-		font-size: 18px;
-		margin-left: 5px;
+.report-box{
+	margin-top: 40px;
+	width: 400px;
+	height: 100px;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+	.container{
+		width: 90%;
 	}
 
 	
-
-	.box-container div {
-    width: 70%;
+.box-container{
+	margin-top: 50px;
 }
 
-	.para{
-	max-width: 500px;
-	text-align: justify;
-	}	
-
-	.para p{
-		font-size: 18px;
-		margin-left: 5px;
-	}
-
-	.box-container{
-	margin-left: 130px;
+.box{
+width: 500px;
+height: 100px;
 }
-.box-text{
-	width: 75%;
-	padding: 20px;
-	margin-left: 15px;
-	}
+
+.box-img{
+	margin-top: -30px;
+	margin-right: 10px;
+}
+
 }
 
 @media only screen and (min-width: 992px) {
-	footer {
- background-color: #ffffff;
- padding: 0;
- bottom: 0;
- position: absolute;
- margin:0;
- width: 100%;
-}
+
 
 .box-container{
 	float: right;
 	margin-top: -400px;
 	margin-right: -50px;
 }
+
+.box-container{
+	margin-top: 10px;
+}
 .box-container div {
     width: 80%;
 	margin: 30px;
 }
 
+.box-text{
+	width: 75%;
+	padding: 20px;
+	margin-left: 10px;
+}
+
+.box h3{
+	color: #ffffff;
+	font-size: 15px;
+	text-align: right;
+}
+
+.box-sign{
+	width: 75%;
+	margin: -25px;
+}
+
+.box img{
+	float: right;
+	vertical-align: middle;
+  	width: 80px;
+  	height: 80px;
+  	border-radius: 50%;
+}
+
+.box-img{
+	margin-top: -55px;
+	margin-right: 20px;
+}
+.career-img{
+	margin-top: 100px;
+}
+
+.report-box{
+	margin-top: 220px;
+	width: 400px;
+	height: 100px;
+}
 }
