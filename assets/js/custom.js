@@ -32,7 +32,7 @@
 			window.open($(this).attr("href"));
 
 			//redirect current page to success page
-			window.location = "https://ayobakre.github.io/vertrauen.africa/download.html";
+			window.location = "http://127.0.0.1:5502/download.html";
 			window.focus();
 		}
 	);
