@@ -1048,13 +1048,10 @@ margin: 0 auto;
 }
 
 .report-para li{
-	margin: 10px;
+	margin: 15px;
 }
 .report-para .inner-list{
 	list-style: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .report-right{
@@ -1075,6 +1072,7 @@ align-items: center;
 .report-box p{
 	text-align: center;
 	color: #ffffff;
+	padding: 20px;
 }
 
 .report-box a{
@@ -1087,7 +1085,6 @@ align-items: center;
 
 .inner-list li{
 	text-align: left;
-	margin-left: -250px;
 }
 
 
@@ -1222,18 +1219,14 @@ margin: 0 auto;
 }
 
 .report-para li{
-	margin: 10px;
+	margin: 15px;
 }
 .report-para .inner-list{
 	list-style: none;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .inner-list li{
 	text-align: left;
-	margin-left: -250px;
 }
 
 .report-right{
@@ -1264,6 +1257,8 @@ align-items: center;
 .report-para a {
 	color:#324606 ;
 }
+
+
 }
 
 @media (max-width:1199px) and (min-width:1066px){
