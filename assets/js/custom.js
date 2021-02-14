@@ -18,6 +18,35 @@
 			}
 		});
 
+		/*~-~-~- Smoth Scrool Js ~-~-~- */
+
+		$('a.smoth-scroll').on("click", function (e) {
+			var anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $(anchor.attr('href')).offset().top - 50
+			}, 1000);
+			e.preventDefault();
+		});
+
+		/*~-~-~- Bottom to Top ~-~-~- */
+
+		$('body').append('<div id="scrollup"><i class="fa fa-angle-up"></i></div>');
+
+
+		$(window).on("scroll", function () {
+			if ($(this).scrollTop() > 250) {
+				$('#scrollup').fadeIn();
+			} else {
+				$('#scrollup').fadeOut();
+			}
+		});
+		$('#scrollup').on("click", function () {
+			$("html, body").animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+
 		/* -~-~-  Mobile Menu hiddin on click ~-~-~- */  
 		$("ul.nav.navbar-nav li a").click(function () {
 			$(".navbar-collapse").removeClass("in");
@@ -32,7 +61,7 @@
 			window.open($(this).attr("href"));
 
 			//redirect current page to success page
-			window.location = "http://127.0.0.1:5502/download.html";
+			window.location = "https://ayobakre.github.io/vertrauen.africa/download.html";
 			window.focus();
 		}
 	);

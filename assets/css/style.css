@@ -15,6 +15,29 @@ body {
   min-height: 100%;
 }
 
+@media (max-width: 800px){
+
+	h1{
+		font-size: clamp(30px, 7vw, 48px) !important;
+	}
+
+	h2{
+		font-size: clamp(28px, 7vw, 36px) !important;
+	}
+}
+
+@media (min-width: 800px){
+
+
+	h1{
+		font-size: clamp(32px, 4vw, 48px) !important;
+	}
+
+	h2{
+		font-size: clamp(28px, 4vw, 32px) !important;
+	}
+}
+
 /*-- Pre Loader --*/
 
 .preloader-area {
@@ -137,6 +160,10 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 .navbar-nav {
 	margin-top: 4px;
+}
+
+.slash{
+	margin-top: 8px;
 }
 
 .sticky.navbar .nav > li {
@@ -264,6 +291,9 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	}
 	.navbar-brand {
 		padding: 4px 15px;
+	}
+	.slash{
+		display: none;
 	}
 }
 
@@ -410,6 +440,53 @@ footer {
 	float: right;
 }
 
+#scrollup {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	color: #2c724f;
+	cursor: pointer;
+	border: 1px solid #2c724f;
+	text-align: center;
+	font-size: 24px;
+	line-height: 36px;
+	z-index: 9999;
+	display: none;
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.download-report{
+	margin-bottom: 450px;
+}
+
+.download{
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.download img{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.download p{
+	text-align: center;
+}
+
+.download > div{
+
+}
+
 /* Responsiveness */
 
 /* Medium Layout: 1280px. */
@@ -439,6 +516,10 @@ footer {
 		background-color: #fff;
 	}
 
+	.slash{
+		display: none;
+	}
+
 	#footer{
 		text-align: center;
 	}
@@ -447,6 +528,8 @@ footer {
 	#footer .right{
 	float: none;
 }
+
+
 }
 
 
@@ -455,6 +538,7 @@ footer {
     flex-direction: column;
   }
 }
+
 @media (max-width:480px) and (min-width:320px) {
     .about-title{
 	font-size: 8vw;
@@ -524,14 +608,14 @@ html, body {
 }
 
 .career{
-	margin-top: 20px ;
+	margin-top: 40px ;
 }
 
 .career-title{
 font-family: Avenir;
 font-style: normal;
 font-weight: 800;
-font-size: 30px;
+font-size: 7vw;
 line-height: 44px;
 color: #525252;
 text-align: left;
@@ -541,13 +625,11 @@ text-align: left;
 	font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 16px;
 line-height: 25px;
-
 color: #4D5E26;
 text-align: left;
 }
-
 
 .fas, .far{color: red;
 }
@@ -556,22 +638,21 @@ text-align: left;
 font-family: Avenir;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 16px;
 line-height: 25px;
-
 color: #324606;
 }
 
 .para-lower{
 	margin-top: 70px;
 	font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-color: #4D5E26;
-height: auto;
-text-align: justify;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	color: #4D5E26;
+	height: auto;
+	text-align: justify;
 }
 
 .para-lower a{
@@ -591,15 +672,15 @@ text-align: justify;
   margin-right: auto;
 }
 
-.report-left{
-	margin-top: 50px ;
+.reports{
+	margin-top: 40px ;
 }
 
 .report-title{
 font-family: Avenir;
 font-style: normal;
 font-weight: 800;
-font-size: 30px;
+font-size: 7vw;
 line-height: 44px;
 color: #525252;
 text-align: left;
@@ -617,7 +698,9 @@ text-align: left;
 
 .report-para li{
 	margin: 15px;
+	font-size: 16px;
 }
+
 .report-para .inner-list{
 	list-style: none;
 }
@@ -625,7 +708,7 @@ text-align: left;
 .report-box{
 	background: #4D5E26;
 border-radius: 31px;
-height: 90px;
+height: 120px;
 width: 90%;
 margin: 0 auto;
 display: flex;
@@ -644,6 +727,10 @@ align-items: center;
 
 .report-para a {
 	color:#324606 ;
+}
+
+.row-right{
+	margin-bottom: 100px;
 }
 }
 
@@ -764,7 +851,7 @@ text-align: justify;
 font-family: Avenir;
 font-style: normal;
 font-weight: 800;
-font-size: 32px;
+font-size: 36px;
 line-height: 44px;
 color: #525252;
 text-align: center;
@@ -791,7 +878,7 @@ margin: 0 auto;
 .report-box{
 	background: #4D5E26;
 border-radius: 31px;
-height: 290px;
+height: 120px;
 width: 90%;
 margin: 0 auto;
 display: flex;
@@ -810,6 +897,10 @@ align-items: center;
 
 .report-para a {
 	color:#324606 ;
+}
+
+.row-right{
+	margin-bottom: 100px;
 }
 }
 
