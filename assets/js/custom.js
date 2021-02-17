@@ -18,23 +18,13 @@
 			}
 		});
 
-		/*~-~-~- Smoth Scrool Js ~-~-~- */
-
-		$('a.smoth-scroll').on("click", function (e) {
-			var anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $(anchor.attr('href')).offset().top - 50
-			}, 1000);
-			e.preventDefault();
-		});
-
 		/*~-~-~- Bottom to Top ~-~-~- */
 
 		$('body').append('<div id="scrollup"><i class="fa fa-angle-up"></i></div>');
 
 
 		$(window).on("scroll", function () {
-			if ($(this).scrollTop() > 250) {
+			if ($(this).scrollTop() > 50) {
 				$('#scrollup').fadeIn();
 			} else {
 				$('#scrollup').fadeOut();
@@ -46,6 +36,7 @@
 			}, 800);
 			return false;
 		});
+
 
 		/* -~-~-  Mobile Menu hiddin on click ~-~-~- */  
 		$("ul.nav.navbar-nav li a").click(function () {
@@ -65,6 +56,34 @@
 			window.focus();
 		}
 	);
+
+	$(window).scroll(function() {
+		if($(window).scrollTop() + $(window).height() == $(document).height()) {
+			var pageURL = $(location).attr("href");
+
+			if (pageURL=='https://ayobakre.github.io/vertrauen.africa/index.html'){
+				window.location = "https://ayobakre.github.io/vertrauen.africa/careers.html";
+				window.focus();
+			}
+
+			else if (pageURL == 'https://ayobakre.github.io/vertrauen.africa/careers.html') {
+				window.location = "https://ayobakre.github.io/vertrauen.africa/reports.html";
+				window.focus();
+			}
+
+			else if (pageURL == 'https://ayobakre.github.io/vertrauen.africa/reports.html') {
+				window.location = "https://ayobakre.github.io/vertrauen.africa/index.html";
+				window.focus();
+			}
+			
+			else{
+
+			}
+			
+		}
+
+	
+});
 
 })(jQuery);
 
