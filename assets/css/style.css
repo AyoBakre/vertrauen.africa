@@ -1171,6 +1171,7 @@ color: #525252;
 	.para{
 		text-align: left;
 		margin-left: 0;
+		margin-top: 30px;
 	}
 
 	.box-container{
@@ -1207,7 +1208,7 @@ color: #525252;
 		font-size: 15px;
 		line-height: 20px;
 		color: #FFFFFF; 
-		margin-left: 210px;
+		margin-left: 250px;
 	}
 
 	.box-img{
