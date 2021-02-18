@@ -61,7 +61,7 @@
 		if($(window).scrollTop() + $(window).height() == $(document).height()) {
 			var pageURL = $(location).attr("href");
 
-			if (pageURL=='https://ayobakre.github.io/vertrauen.africa/index.html'){
+			if (pageURL=='https://ayobakre.github.io/vertrauen.africa/index.html' || 'https://ayobakre.github.io/vertrauen.africa/' ){
 				window.location = "https://ayobakre.github.io/vertrauen.africa/careers.html";
 				window.focus();
 			}
