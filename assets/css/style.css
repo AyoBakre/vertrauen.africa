@@ -451,10 +451,10 @@ body {
 		height: auto;
 	}
 	h1 {
-		font-size: clamp(32px, 8vw, 48px) !important;
+		font-size: clamp(30px, 8vw, 48px) !important;
 	}
 	h2 {
-		font-size: clamp(32px, 8vw, 48px) !important;
+		font-size: clamp(30px, 8vw, 48px) !important;
 	}
 	.about-title,
 	.career-title,
@@ -479,7 +479,7 @@ body {
 		font-size: 18px;
 		line-height: 25px;
 		color: #4D5E26;
-		text-align: justify;
+		text-align: lefft;
 	}
 	.para p a {
 		color: #8ebb24;
@@ -489,7 +489,7 @@ body {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0;
+		margin-top: 20px;
 		margin-right: 0;
 	}
 	.box {
@@ -505,11 +505,13 @@ body {
 		justify-content: center;
 		align-items: center;
 		background: #4D5E26;
+		margin: 0 auto;
+		margin-bottom: 25px ;
 	}
 	.box-text {
 		position: absolute;
 		top: 35px;
-		left: 20px;
+		left: 5px;
 	}
 	.box-text p {
 		font-family: Avenir;
@@ -528,7 +530,7 @@ body {
 		color: #FFFFFF;
 		position: absolute;
 		top: 105px;
-		left: 150px;
+		left: 130px;
 	}
 	.box-img {
 		width: 90px;
@@ -681,6 +683,7 @@ body {
 		color: #75A017;
 	}
 	.report-box {
+		margin-top: 30px;
 		background: #4D5E26;
 		border-radius: 31px;
 		height: 200px;
@@ -693,7 +696,7 @@ body {
 	.report-box p {
 		text-align: center;
 		color: #ffffff;
-		font-size: 18px;
+		font-size: 15px;
 	}
 	.report-box a {
 		color: #ffffff;
@@ -702,7 +705,7 @@ body {
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 15px;
 		line-height: 25px;
 		text-align: center;
 	}
@@ -999,6 +1002,8 @@ body {
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;
+		
+		margin-top: 30px;
 	}
 	.report-box p {
 		text-align: center;
@@ -1299,6 +1304,8 @@ body {
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;
+		
+		margin-top: 30px;
 	}
 	.report-box p {
 		text-align: center;
@@ -1474,13 +1481,11 @@ body {
 		line-height: 25px;
 		list-style: none;
 		color: #324606;
-		width: 273px;
 		height: 53px;
 		text-align: left;
 	}
 	.career-para li {
 		line-height: 40px;
-		width: 221px;
 		height: 30px;
 		font-family: Avenir;
 		font-style: normal;
@@ -1597,6 +1602,8 @@ body {
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;
+		
+		margin-top: 30px;
 	}
 	.report-box p {
 		text-align: center;
