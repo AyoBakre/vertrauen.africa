@@ -1123,6 +1123,10 @@ body {
 		justify-content: center;
 		align-items: center;
 		background: #4D5E26;
+		
+		margin: 0 auto;
+		margin-bottom: 25px ;
+		margin-top: 20px;
 	}
 	.box-text {
 		position: absolute;
