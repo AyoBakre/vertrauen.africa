@@ -385,7 +385,6 @@ body {
 @media (max-width:1199px){
 
 .foot{
-	margin-top: 50px !important;
 	margin-bottom: 100px !important;
 }
 
@@ -449,6 +448,11 @@ body {
 }
 
 @media (max-width:399px) {
+
+	#brand {
+	font-size: 16px;
+}
+
 	.center {
 		flex-direction: column;
 		width: 100%;
@@ -741,6 +745,9 @@ body {
 }
 
 @media (max-width:499px) and (min-width:400px) {
+	#brand {
+	font-size: 18px;
+}
 	.center {
 		flex-direction: column;
 		width: 100%;
