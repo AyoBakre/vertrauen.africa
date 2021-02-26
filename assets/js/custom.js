@@ -66,18 +66,8 @@
 			window.focus();
 		}
 	);
-	
-	function getDocumentHeight() {
-		return Math.max(
-			Math.max(document.body.scrollHeight, document.documentElement.scrollHeight),
-			Math.max(document.body.offsetHeight, document.documentElement.offsetHeight),
-			Math.max(document.body.clientHeight, document.documentElement.clientHeight)
-		);
-		}
 
-		$(window).scroll(function() {
-			var docHeight = getDocumentHeight();
-			if($(window).scrollTop() + window.innerHeight == docHeight) {
+	if ($(window).scrollTop() >= $(document).height() - $(window).height() - 100) {
 			var pageURL = $(location).attr("href");
 
 			if (pageURL=='https://ayobakre.github.io/vertrauen.africa/index.html'){
