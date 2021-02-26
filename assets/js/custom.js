@@ -50,6 +50,7 @@
 
 		/* -~-~-  Mobile Menu hiddin on click ~-~-~- */  
 		$("ul.nav.navbar-nav li a").click(function () {
+			alert('ode')
 			$(".navbar-collapse").removeClass("in");
 		})
 	});
