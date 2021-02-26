@@ -198,6 +198,8 @@
 				$('#first-li').addClass('active');
 				$('#second-li').removeClass('active');
 				$('#third-li').removeClass('active');
+
+				$(".navbar-collapse").removeClass("in")
 			
 		
 			// For all modern browsers, prevent default behavior of the click
