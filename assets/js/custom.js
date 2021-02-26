@@ -50,7 +50,6 @@
 
 		/* -~-~-  Mobile Menu hiddin on click ~-~-~- */  
 		$("ul.nav.navbar-nav li a").click(function () {
-			alert('ode')
 			$(".navbar-collapse").removeClass("in");
 		})
 	});
@@ -225,6 +224,7 @@
 				$('#first-li').removeClass('active');
 				$('#second-li').addClass('active');
 				$('#third-li').removeClass('active');
+				$(".navbar-collapse").removeClass("in")
 	
 		// For all modern browsers, prevent default behavior of the click
 		e.preventDefault();
@@ -247,6 +247,7 @@
 				$('#first-li').removeClass('active');
 				$('#second-li').removeClass('active');
 				$('#third-li').addClass('active');
+				$(".navbar-collapse").removeClass("in")
 	
 		// For all modern browsers, prevent default behavior of the click
 		e.preventDefault();
