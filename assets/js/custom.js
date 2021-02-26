@@ -67,7 +67,8 @@
 		}
 	);
 
-	if ($(window).scrollTop() + $(window).height() + 100 >= $(document).height()) {
+	$(window).scroll(function() {
+		if($(window).scrollTop() + $(window).height() == $(document).height()) {
 			var pageURL = $(location).attr("href");
 
 			if (pageURL=='https://ayobakre.github.io/vertrauen.africa/index.html'){
@@ -168,7 +169,8 @@
 
 			}
 	};
-
+	});
+	
 	$('#first-li').click(function(e) {
 			
 			const nextTitle = 'vertrauen - about';
