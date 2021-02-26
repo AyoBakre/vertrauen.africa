@@ -167,10 +167,7 @@
 			else{
 
 			}
-			
-			}
-	
-		});
+	};
 
 	$('#first-li').click(function(e) {
 			
