@@ -180,7 +180,9 @@
 				
 				$('#second').css('display', 'none');
 				$('#third').css('display', 'none');
-				
+				$("html, body").animate({
+					scrollTop: 0
+					}, 800);
 				$('#first').css('display', 'inline-block');
 				$('#first-li').addClass('active');
 				$('#second-li').removeClass('active');
@@ -205,6 +207,9 @@
 				// This will create a new entry in the browser's history, without reloading
 
 				$('#first').css('display', 'none');
+				$("html, body").animate({
+					scrollTop: 0
+					}, 800);
 				$('#second').css('display', 'inline-block');
 				$('#third').css('display', 'none');
 				
@@ -229,6 +234,9 @@
 
 				$('#first').css('display', 'none');
 				$('#second').css('display', 'none');
+				$("html, body").animate({
+					scrollTop: 0
+					}, 800);
 				$('#third').css('display', 'inline-block');
 				
 				$('#first-li').removeClass('active');
@@ -242,5 +250,7 @@
 		// Just to be sure, older IE's needs this
 		return false; 
 	});
+
+	
 })(jQuery);
 
