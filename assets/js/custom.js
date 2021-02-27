@@ -62,7 +62,7 @@
 			window.open($(this).attr("href"));
 
 			//redirect current page to success page
-			window.location = "https://ayobakre.github.io/vertrauen.africa/download.html";
+			window.location = "http://127.0.0.1:5502/download.html";
 			window.focus();
 		}
 	);
@@ -71,10 +71,10 @@
 		if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
 			var pageURL = $(location).attr("href");
 
-			if (pageURL=='https://ayobakre.github.io/vertrauen.africa/index.html'){
+			if (pageURL=='http://127.0.0.1:5502/index.html'){
 
 				const nextTitle = 'vertrauen - careers';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
+				const nextURL = 'http://127.0.0.1:5502/careers.html';
 				const nextState = { additionalInformation: 'vertrauen careers' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -90,10 +90,10 @@
 				$('#third-li').removeClass('active');
 			}
 
-			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/'){
+			else if (pageURL=='http://127.0.0.1:5502/'){
 
 				const nextTitle = 'vertrauen - careers';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
+				const nextURL = 'http://127.0.0.1:5502/careers.html';
 				const nextState = { additionalInformation: 'vertrauen careers' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -109,10 +109,10 @@
 				$('#third-li').removeClass('active');
 			}
 
-			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/about.html'){
+			else if (pageURL=='http://127.0.0.1:5502/about.html'){
 
 				const nextTitle = 'vertrauen - careers';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
+				const nextURL = 'http://127.0.0.1:5502/careers.html';
 				const nextState = { additionalInformation: 'vertrauen careers' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -128,10 +128,10 @@
 				$('#third-li').removeClass('active');
 			}
 
-			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/careers.html'){
+			else if (pageURL=='http://127.0.0.1:5502/careers.html'){
 
 				const nextTitle = 'vertrauen - reports';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/reports.html';
+				const nextURL = 'http://127.0.0.1:5502/reports.html';
 				const nextState = { additionalInformation: 'vertrauen reports' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -147,10 +147,10 @@
 				$('#third-li').addClass('active');
 			}
 
-			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/reports.html'){
+			else if (pageURL=='http://127.0.0.1:5502/reports.html'){
 
 				const nextTitle = 'vertrauen - about';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/about.html';
+				const nextURL = 'http://127.0.0.1:5502/about.html';
 				const nextState = { additionalInformation: 'vertrauen about' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -168,14 +168,14 @@
 			else{
 
 			}
-			
+
 	};
 	});
 	
 	$('#first-li').click(function(e) {
 			
 			const nextTitle = 'vertrauen - about';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/about.html';
+				const nextURL = 'http://127.0.0.1:5502/about.html';
 				const nextState = { additionalInformation: 'vertrauen about' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -183,17 +183,22 @@
 				
 				$('#second').css('display', 'none');
 				$('#third').css('display', 'none');
+				 
+				$('#first').css('display', 'inline-block').addClass('ani');
 				$("html, body").animate({
 					scrollTop: 0
 					}, 800);
-				$('#first').css('display', 'inline-block');
+				
+				$('#second').removeClass('ani');
+				$('#third').removeClass('ani');
+
 				$('#first-li').addClass('active');
 				$('#second-li').removeClass('active');
 				$('#third-li').removeClass('active');
 
-				$(".navbar-collapse").removeClass("in")
+				$(".navbar-collapse").removeClass("in");
+					
 			
-		
 			// For all modern browsers, prevent default behavior of the click
 			e.preventDefault();
 			
@@ -204,17 +209,20 @@
 
 	$('#second-li').click(function(e) {
 		const nextTitle = 'vertrauen - careers';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
+				const nextURL = 'http://127.0.0.1:5502/careers.html';
 				const nextState = { additionalInformation: 'vertrauen careers' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
 
 				$('#first').css('display', 'none');
+				$('#third').css('display', 'none');
+				$('#second').css('display', 'inline-block').addClass('ani');
 				$("html, body").animate({
 					scrollTop: 0
 					}, 800);
-				$('#second').css('display', 'inline-block');
-				$('#third').css('display', 'none');
+				
+				$('#first').removeClass('ani');
+				$('#third').removeClass('ani');
 				
 				$('#first-li').removeClass('active');
 				$('#second-li').addClass('active');
@@ -230,17 +238,21 @@
 
 	$('#third-li').click(function(e) {
 		const nextTitle = 'vertrauen - reports';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/reports.html';
+				const nextURL = 'http://127.0.0.1:5502/reports.html';
 				const nextState = { additionalInformation: 'vertrauen reports' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
 
 				$('#first').css('display', 'none');
 				$('#second').css('display', 'none');
+				
+				$('#third').css('display', 'inline-block').addClass('ani');
 				$("html, body").animate({
 					scrollTop: 0
 					}, 800);
-				$('#third').css('display', 'inline-block');
+				
+				$('#first').removeClass('ani');
+				$('#second').removeClass('ani');
 				
 				$('#first-li').removeClass('active');
 				$('#second-li').removeClass('active');
