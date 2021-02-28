@@ -62,7 +62,7 @@
 			window.open($(this).attr("href"));
 
 			//redirect current page to success page
-			window.location = "http://127.0.0.1:5502/download.html";
+			window.location = "https://ayobakre.github.io/vertrauen.africa/download.html";
 			window.focus();
 		}
 	);
@@ -75,10 +75,10 @@
 			
 			var pageURL = $(location).attr("href");
 
-			if (pageURL=='http://127.0.0.1:5502/index.html'){
+			if (pageURL=='https://ayobakre.github.io/vertrauen.africa/index.html'){
 
 				const nextTitle = 'vertrauen - careers';
-				const nextURL = 'http://127.0.0.1:5502/careers.html';
+				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
 				const nextState = { additionalInformation: 'vertrauen careers' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -94,10 +94,10 @@
 				$('#third-li').removeClass('active');
 			}
 
-			else if (pageURL=='http://127.0.0.1:5502/'){
+			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/'){
 
 				const nextTitle = 'vertrauen - careers';
-				const nextURL = 'http://127.0.0.1:5502/careers.html';
+				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
 				const nextState = { additionalInformation: 'vertrauen careers' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -113,10 +113,10 @@
 				$('#third-li').removeClass('active');
 			}
 
-			else if (pageURL=='http://127.0.0.1:5502/about.html'){
+			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/about.html'){
 
 				const nextTitle = 'vertrauen - careers';
-				const nextURL = 'http://127.0.0.1:5502/careers.html';
+				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
 				const nextState = { additionalInformation: 'vertrauen careers' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -132,10 +132,10 @@
 				$('#third-li').removeClass('active');
 			}
 
-			else if (pageURL=='http://127.0.0.1:5502/careers.html'){
+			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/careers.html'){
 
 				const nextTitle = 'vertrauen - reports';
-				const nextURL = 'http://127.0.0.1:5502/reports.html';
+				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/reports.html';
 				const nextState = { additionalInformation: 'vertrauen reports' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -151,10 +151,10 @@
 				$('#third-li').addClass('active');
 			}
 
-			else if (pageURL=='http://127.0.0.1:5502/reports.html'){
+			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/reports.html'){
 
 				const nextTitle = 'vertrauen - about';
-				const nextURL = 'http://127.0.0.1:5502/about.html';
+				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/about.html';
 				const nextState = { additionalInformation: 'vertrauen about' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -180,7 +180,7 @@
 	$('#first-li').click(function(e) {
 			
 			const nextTitle = 'vertrauen - about';
-				const nextURL = 'http://127.0.0.1:5502/about.html';
+				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/about.html';
 				const nextState = { additionalInformation: 'vertrauen about' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -214,7 +214,7 @@
 
 	$('#second-li').click(function(e) {
 		const nextTitle = 'vertrauen - careers';
-				const nextURL = 'http://127.0.0.1:5502/careers.html';
+				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
 				const nextState = { additionalInformation: 'vertrauen careers' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
@@ -243,7 +243,7 @@
 
 	$('#third-li').click(function(e) {
 		const nextTitle = 'vertrauen - reports';
-				const nextURL = 'http://127.0.0.1:5502/reports.html';
+				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/reports.html';
 				const nextState = { additionalInformation: 'vertrauen reports' };
 				window.history.pushState(nextState, nextTitle, nextURL);
 				// This will create a new entry in the browser's history, without reloading
