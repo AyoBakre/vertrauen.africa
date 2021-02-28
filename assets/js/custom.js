@@ -74,7 +74,7 @@
 			var offset = d.scrollTop + window.innerHeight;
 			var height = d.offsetHeight;
 			if (offset >= height) {
-				alert{'working'}
+				alert('working')
 			var pageURL = $(location).attr("href");
 
 			if (pageURL=='https://ayobakre.github.io/vertrauen.africa/index.html'){
