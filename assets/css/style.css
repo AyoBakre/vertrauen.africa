@@ -479,19 +479,21 @@ footer{
 @media (max-width:399px) {
 
 	#brand {
-	font-size: 16px;
-}
+		margin-top: 5px;	
+		font-size: 18px;
+	}
 
 	.center {
 		flex-direction: column;
-		width: 100%;
-		height: auto;
 	}
 	h1 {
-		font-size: clamp(30px, 8vw, 48px) !important;
+		font-size: clamp(28px, 8vw, 48px) !important;
 	}
 	h2 {
-		font-size: clamp(30px, 8vw, 48px) !important;
+		font-size: clamp(28px, 8vw, 48px) !important;
+	}
+	body {
+		padding-top: 60px;
 	}
 	.about-title,
 	.career-title,
@@ -499,7 +501,7 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: 800;
-		line-height: 50px;
+		line-height: 35px;
 		color: #525252;
 		text-align: center;
 	}
@@ -513,7 +515,7 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 25px;
 		color: #4D5E26;
 		text-align: left;
@@ -526,7 +528,7 @@ footer{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 20px;
+		margin-top: 25px;
 		margin-right: 0;
 	}
 	.box {
@@ -548,7 +550,7 @@ footer{
 	.box-text {
 		position: absolute;
 		top: 35px;
-		left: 5px;
+		left: 10px;
 	}
 	.box-text p {
 		font-family: Avenir;
@@ -574,31 +576,26 @@ footer{
 		height: 90px;
 		position: absolute;
 		top: 26px;
-		right: 10px;
+		right: 5px;
 	}
 	.career-center {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
-	.career-left {
-		width: 465px;
-		height: auto;
+	.career-para {
+		max-width: 90%;
+		margin: 0 auto;
+		padding-top: 30px;
 	}
 	.career-para p {
-		font-family: Avenir;
+		width: 100%;font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 16px;
 		line-height: 25px;
 		color: #4D5E26;
 		text-align: left;
-		width: 80%;
-		height: 50px;
-		padding-bottom: 70px;
-		
-		padding-top: 30px;
-		margin: 0 auto;
 	}
 	.career-para br {
 		display: none;
@@ -609,25 +606,24 @@ footer{
 	}
 	.career-para ul {
 		font-family: Avenir;
+		width: 100%;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 16px;
 		line-height: 25px;
 		list-style: none;
 		color: #324606;
-		height: 53px;
 		text-align: left;
 	}
 	.career-para li {
-		line-height: 40px;
-		height: 30px;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 16px;
 		line-height: 25px;
 		color: #324606;
-		padding-bottom: 15px;
+		padding-bottom: 5px;
+		margin-left: -25px;
 	}
 	.inner-list li {
 		font-family: Avenir;
@@ -642,13 +638,17 @@ footer{
 		margin-left: 0;
 		margin-top: 20px;
 	}
+
 	.para-lower {
-		width: 80%;
-		height: auto;
+		max-width: 90%;
 		margin: 0 auto;
-		margin-top: 156px;
+		padding-top: 30px;
 	}
+
+
 	.para-lower p {
+		margin: 0 auto;
+		width: 100%;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
@@ -656,13 +656,6 @@ footer{
 		line-height: 25px;
 		color: #4D5E26;
 		text-align: left;
-		margin: 0 auto;
-		width: 80%;
-	}
-	.career-para {
-		max-width: 80%;
-		margin: 0 auto;
-		position: relative;
 	}
 	.para-lower a {
 		color: #8ebb24;
@@ -692,23 +685,29 @@ footer{
 		justify-content: center;
 	}
 	.report-para {
+
+		margin: 0 auto;
+		padding-top: 30px;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 16px;
 		line-height: 25px;
 		color: #324606;
 		text-align: left;
-		margin-top: 50px;
 	}
 	.report-para li {
+		margin: 0 auto;
+		width: 100%;
+		text-align: left;
 		list-style: none;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 15px;
+		font-size: 16px;
 		line-height: 25px;
 		color: #324606;
+		margin-left: -25px;
 	}
 	.report-para .inner-list li {
 		list-style: none;
@@ -718,6 +717,8 @@ footer{
 		font-size: 12px;
 		line-height: 19px;
 		color: #75A017;
+		margin-left: -60px;
+		padding-top: 15px;
 	}
 	.report-para a {
 		color: #75A017;
@@ -775,12 +776,11 @@ footer{
 
 @media (max-width:499px) and (min-width:400px) {
 	#brand {
-	font-size: 18px;
-}
+		margin-top: 5px;	
+		font-size: 18px;
+	}
 	.center {
 		flex-direction: column;
-		width: 100%;
-		height: auto;
 	}
 	h1 {
 		font-size: clamp(32px, 8vw, 48px) !important;
@@ -788,13 +788,16 @@ footer{
 	h2 {
 		font-size: clamp(32px, 8vw, 48px) !important;
 	}
+	body {
+		padding-top: 60px;
+	}
 	.about-title,
 	.career-title,
 	.report-title {
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: 800;
-		line-height: 50px;
+		line-height: 40px;
 		color: #525252;
 		text-align: center;
 	}
@@ -808,7 +811,7 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 17px;
 		line-height: 25px;
 		color: #4D5E26;
 		text-align: left;
@@ -821,7 +824,7 @@ footer{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0;
+		margin-top: 20px;
 		margin-right: 0;
 	}
 	.box {
@@ -873,28 +876,25 @@ footer{
 		top: 26px;
 		right: 15px;
 	}
+
 	.career-center {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
-	.career-left {
-		width: 465px;
-		height: auto;
+	.career-para {
+		max-width: 90%;
+		margin: 0 auto;
+		padding-top: 30px;
 	}
 	.career-para p {
-		font-family: Avenir;
+		width: 100%;font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 16px;
+		font-size: 17px;
 		line-height: 25px;
 		color: #4D5E26;
 		text-align: left;
-		width: 100%;
-		height: 50px;
-		padding-bottom: 70px;
-		
-		padding-top: 30px;
 	}
 	.career-para br {
 		display: none;
@@ -905,31 +905,30 @@ footer{
 	}
 	.career-para ul {
 		font-family: Avenir;
+		width: 100%;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 16px;
+		font-size: 17px;
 		line-height: 25px;
 		list-style: none;
 		color: #324606;
-		height: 53px;
 		text-align: left;
 	}
 	.career-para li {
-		line-height: 40px;
-		height: 30px;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 17px;
 		line-height: 25px;
 		color: #324606;
-		padding-bottom: 15px;
+		padding-bottom: 5px;
+		margin-left: -25px;
 	}
 	.inner-list li {
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: 300;
-		font-size: 14px;
+		font-size: 15px;
 		line-height: 19px;
 		color: #324606;
 		padding-left: 27px;
@@ -938,25 +937,24 @@ footer{
 		margin-left: 0;
 		margin-top: 20px;
 	}
+
 	.para-lower {
-		width: 80%;
-		height: auto;
+		max-width: 90%;
 		margin: 0 auto;
-		margin-top: 156px;
+		padding-top: 30px;
 	}
+
+
 	.para-lower p {
+		margin: 0 auto;
+		width: 100%;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 16px;
+		font-size: 17px;
 		line-height: 25px;
 		color: #4D5E26;
 		text-align: left;
-		margin: 0 auto;
-	}
-	.career-para {
-		max-width: 80%;
-		margin: 0 auto;
 	}
 	.para-lower a {
 		color: #8ebb24;
@@ -974,49 +972,58 @@ footer{
 	.career-img {
 		margin-top: 50px;
 		border-radius: 20px;
-		width: 428px;
-		height: 403px;
+		width: 328px;
+		height: 303px;
 		margin-left: 0;
 		padding: 0;
 	}
+
 	.reports-center {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 	.report-para {
+
+		margin: 0 auto;
+		padding-top: 30px;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 17px;
 		line-height: 25px;
 		color: #324606;
 		text-align: left;
-		
-		margin-top: 50px;
 	}
 	.report-para li {
+		margin: 0 auto;
+		width: 100%;
+		text-align: left;
 		list-style: none;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 15px;
+		font-size: 17px;
 		line-height: 25px;
 		color: #324606;
+		margin-left: -10px;
 	}
 	.report-para .inner-list li {
 		list-style: none;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: 300;
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 19px;
 		color: #75A017;
+		margin-left: -60px;
+		padding-top: 15px;
 	}
 	.report-para a {
 		color: #75A017;
 	}
 	.report-box {
+		margin-top: 30px;
 		background: #4D5E26;
 		border-radius: 31px;
 		height: 200px;
@@ -1029,7 +1036,7 @@ footer{
 	.report-box p {
 		text-align: center;
 		color: #ffffff;
-		font-size: 18px;
+		font-size: 15px;
 	}
 	.report-box a {
 		color: #ffffff;
@@ -1038,42 +1045,10 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 15px;
 		line-height: 25px;
 		text-align: center;
 	}
-	.report-box {
-		background: #4D5E26;
-		border-radius: 31px;
-		height: 200px;
-		width: 300px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		overflow: hidden;
-		
-		margin-top: 30px;
-	}
-	.report-box p {
-		text-align: center;
-		color: #ffffff;
-		font-size: 16px;
-	}
-	.report-box a {
-		color: #ffffff;
-		width: 297px;
-		height: 50px;
-		font-family: Avenir;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		line-height: 25px;
-		text-align: center;
-	}
-	.report-para li {
-		margin: 0 auto;
-	}
-
 	.download {
 		position: fixed;
 		top: 50%;
@@ -1091,25 +1066,35 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 16px;
+		font-size: 17px;
 		line-height: 30px;
 		text-align: center;
 		color: #525252;
 	}
+
+	
 }
 
 @media (max-width:599px) and (min-width:500px) {
+	#brand {
+		margin-top: 5px;	
+		font-size: 18px;
+	}
+	
 	.center {
 		flex-direction: column;
-		width: 100%;
-		height: auto;
 	}
+
 	h1 {
 		font-size: clamp(32px, 8vw, 48px) !important;
 	}
 	h2 {
 		font-size: clamp(32px, 8vw, 48px) !important;
 	}
+	body {
+		padding-top: 60px;
+	}
+
 	.about-title,
 	.career-title,
 	.report-title {
@@ -1143,7 +1128,7 @@ footer{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0;
+		margin-top: 20px;
 		margin-right: 0;
 	}
 	.box {
@@ -1200,22 +1185,19 @@ footer{
 		align-items: center;
 		justify-content: center;
 	}
-	.career-left {
-		width: 565px;
-		height: auto;
+	.career-para {
+		max-width: 90%;
+		margin: 0 auto;
+		padding-top: 30px;
 	}
 	.career-para p {
-		font-family: Avenir;
+		width: 100%;font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
 		color: #4D5E26;
 		text-align: left;
-		width: 100%;
-		height: 50px;
-		padding-bottom: 70px;
-		padding-top: 30px;
 	}
 	.career-para br {
 		display: none;
@@ -1226,46 +1208,49 @@ footer{
 	}
 	.career-para ul {
 		font-family: Avenir;
+		width: 100%;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
 		list-style: none;
 		color: #324606;
-		height: 53px;
 		text-align: left;
 	}
 	.career-para li {
-		line-height: 40px;
-		height: 30px;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
 		color: #324606;
-		padding-bottom: 15px;
+		padding-bottom: 5px;
+		margin-left: -25px;
 	}
 	.inner-list li {
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: 300;
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 19px;
 		color: #324606;
 		padding-left: 27px;
 	}
 	.career-para .list {
-		margin-left: 50px;
-		margin-top: -30px;
+		margin-left: 0;
+		margin-top: 20px;
 	}
+
 	.para-lower {
-		width: 90%;
-		height: auto;
+		max-width: 90%;
 		margin: 0 auto;
-		margin-top: 156px;
+		padding-top: 30px;
 	}
+
+
 	.para-lower p {
+		margin: 0 auto;
+		width: 100%;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
@@ -1273,11 +1258,6 @@ footer{
 		line-height: 25px;
 		color: #4D5E26;
 		text-align: left;
-		margin: 0 auto;
-	}
-	.career-para {
-		max-width: 80%;
-		margin: 0 auto;
 	}
 	.para-lower a {
 		color: #8ebb24;
@@ -1300,22 +1280,16 @@ footer{
 		margin-left: 0;
 		padding: 0;
 	}
+
 	.reports-center {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 	}
-	.report-left .left-content {
-		width: 100%;
-		height: auto;
-	}
-
-	.report-title {
-		max-width: 50%;
-		margin: 0 auto;
-		font-size: clamp(32px, 5vw, 48px) !important;
-	}
-
 	.report-para {
+
+		margin: 0 auto;
+		padding-top: 30px;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
@@ -1323,32 +1297,33 @@ footer{
 		line-height: 25px;
 		color: #324606;
 		text-align: left;
-		
-		margin-top: 50px;
 	}
 	.report-para li {
+		margin: 0 auto;
+		width: 100%;
+		text-align: left;
 		list-style: none;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 14px;
+		font-size: 18px;
 		line-height: 25px;
-		width: 658px;
-		height: 30px;
 		color: #324606;
+		margin-left: -10px;
 	}
 	.report-para .inner-list li {
 		list-style: none;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: 300;
-		font-size: 12px;
+		font-size: 16px;
 		line-height: 19px;
 		color: #75A017;
+		margin-left: -60px;
+		padding-top: 15px;
 	}
 	.report-para a {
 		color: #75A017;
-		height: 19px;
 	}
 	.report-box {
 		background: #4D5E26;
@@ -1359,7 +1334,6 @@ footer{
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;
-		
 		margin-top: 30px;
 	}
 	.report-box p {
@@ -1378,10 +1352,6 @@ footer{
 		line-height: 25px;
 		text-align: center;
 	}
-	.reports li {
-		margin-left: 200px;
-	}
-	
 	.download {
 		position: fixed;
 		top: 50%;
@@ -1399,7 +1369,7 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 30px;
 		text-align: center;
 		color: #525252;
@@ -1409,14 +1379,16 @@ footer{
 @media (max-width:1199px) and (min-width:600px) {
 	.center {
 		flex-direction: column;
-		width: 100%;
-		height: auto;
 	}
+
 	h1 {
 		font-size: clamp(32px, 8vw, 48px) !important;
 	}
 	h2 {
 		font-size: clamp(32px, 8vw, 48px) !important;
+	}
+	body {
+		padding-top: 70px;
 	}
 	.about-title,
 	.career-title,
@@ -1424,7 +1396,7 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: 800;
-		line-height: 66px;
+		line-height: 50px;
 		color: #525252;
 		text-align: center;
 	}
@@ -1448,7 +1420,7 @@ footer{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 0;
+		margin-top: 20px;
 		margin-right: 0;
 	}
 	.box {
@@ -1499,28 +1471,24 @@ footer{
 	.para p a {
 		color: #8ebb24;
 	}
+
 	.career-center {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
-	.career-left {
-		width: 565px;
-		height: auto;
+	.career-para {
+		max-width: 80%;
+		margin: 0 auto;
+		padding-top: 30px;
 	}
-
-
 	.career-para p {
-		font-family: Avenir;
+		width: 100%;font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
 		color: #4D5E26;
-		width: 100%;
-		height: 50px;
-		padding-bottom:80px;
-		padding-top: 30px;
 		text-align: left;
 	}
 	.career-para br {
@@ -1532,45 +1500,49 @@ footer{
 	}
 	.career-para ul {
 		font-family: Avenir;
+		width: 100%;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
 		list-style: none;
 		color: #324606;
-		height: 53px;
 		text-align: left;
 	}
 	.career-para li {
-		line-height: 40px;
-		height: 30px;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
 		color: #324606;
-		padding-bottom: 15px;
+		padding-bottom: 5px;
+		margin-left: -25px;
 	}
 	.inner-list li {
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: 300;
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 19px;
 		color: #324606;
 		padding-left: 27px;
 	}
 	.career-para .list {
-		margin-left: 50px;
-		margin-top: -30px;
+		margin-left: 0;
+		margin-top: 20px;
 	}
+
 	.para-lower {
-		margin-top: 156px;
-		width: 100%;
-		height: auto;
+		max-width: 80%;
+		margin: 0 auto;
+		padding-top: 30px;
 	}
+
+
 	.para-lower p {
+		margin: 0 auto;
+		width: 100%;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
@@ -1578,9 +1550,6 @@ footer{
 		line-height: 25px;
 		color: #4D5E26;
 		text-align: left;
-		max-width: 90%;
-		margin: 0 auto;
-		margin-left: 0;
 	}
 	.para-lower a {
 		color: #8ebb24;
@@ -1596,27 +1565,23 @@ footer{
 		margin: 0;
 	}
 	.career-img {
-		margin-top: 100px;
+		margin-top: 50px;
 		border-radius: 20px;
 		width: 428px;
 		height: 503px;
 		margin-left: 0;
 		padding: 0;
 	}
+
 	.reports-center {
 		display: flex;
 		align-items: center;
-	}
-	.report-left .left-content {
-		width: 100%;
-		height: auto;
-	}
-	.report-title {
-		width: 90%;
-		margin: 0 auto;
-		font-size: clamp(32px, 5vw, 48px) !important;
+		justify-content: center;
 	}
 	.report-para {
+
+		margin: 0 auto;
+		padding-top: 30px;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
@@ -1624,17 +1589,17 @@ footer{
 		line-height: 25px;
 		color: #324606;
 		text-align: left;
-		margin-top: 50px;
 	}
 	.report-para li {
+		margin: 0 auto;
+		width: 100%;
+		text-align: left;
 		list-style: none;
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
-		width: 658px;
-		height: 30px;
 		color: #324606;
 	}
 	.report-para .inner-list li {
@@ -1642,13 +1607,14 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: 300;
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 19px;
 		color: #75A017;
+		margin-left: -60px;
+		padding-top: 15px;
 	}
 	.report-para a {
 		color: #75A017;
-		height: 19px;
 	}
 	.report-box {
 		background: #4D5E26;
@@ -1659,8 +1625,7 @@ footer{
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;
-		
-		margin-top: 30px;
+		margin-top: 50px;
 	}
 	.report-box p {
 		text-align: center;
@@ -1677,9 +1642,6 @@ footer{
 		font-size: 18px;
 		line-height: 25px;
 		text-align: center;
-	}
-	.reports li {
-		margin-left: 60px;
 	}
 	.download {
 		position: fixed;
@@ -1698,11 +1660,12 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 22px;
+		font-size: 18px;
 		line-height: 30px;
 		text-align: center;
 		color: #525252;
 	}
+
 }
 
 @media (min-width:1200px) {
