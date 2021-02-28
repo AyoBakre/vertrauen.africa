@@ -848,7 +848,7 @@ footer{
 	.box-text {
 		position: absolute;
 		top: 35px;
-		left: 20px;
+		left: 16px;
 	}
 	.box-text p {
 		font-family: Avenir;
@@ -874,7 +874,7 @@ footer{
 		height: 90px;
 		position: absolute;
 		top: 26px;
-		right: 15px;
+		right: 11px;
 	}
 
 	.career-center {
