@@ -434,11 +434,6 @@ footer{
 	}
 }
 
-.reports li {
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
 
 /* Medium Layout: 1280px. */
 
@@ -1969,8 +1964,6 @@ footer{
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
-		width: 658px;
-		height: 30px;
 		color: #324606;
 		margin-left: -49px;
 	}
@@ -1981,6 +1974,7 @@ footer{
 		font-weight: 300;
 		font-size: 14px;
 		line-height: 19px;
+		padding: 5px;
 		color: #75A017;
 		margin-left: -90px;
 	}
