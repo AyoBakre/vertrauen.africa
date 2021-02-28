@@ -1,15 +1,10 @@
 body {
 	background-color: #ffffff;
-	font-family: Avenir;
 	padding-top: 100px;
 }
 
-html {
+html{
 	height: 100%;
-}
-
-body {
-	min-height: 100%;
 }
 
 html,
@@ -320,6 +315,8 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 
 /* -- Content -- */
+
+/* page transition */
 .ani{
     -webkit-animation: fadein .5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein .5s; /* Firefox < 16 */
@@ -357,6 +354,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
     to   { opacity: 1; }
 }
 
+
 section .container {
 	width: 100%;
 }
@@ -387,15 +385,17 @@ section .container {
 }
 
 body {
+	min-height: 100%;
+	margin: 0;
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
 }
 
-#page-container {
+.main-container{
 	flex: 1 0 auto;
 }
 
-#footer {
+footer{
 	flex-shrink: 0;
 }
 
@@ -418,13 +418,11 @@ body {
 	text-align: right;
 }
 
-@media (max-width:1199px){
-
-.foot{
-	margin-bottom: 100px !important;
+.home, .career, .reports{
+	margin-bottom: 20px;
 }
 
-}
+
 @media (max-width: 600px) {
 	#footer .right {
 		float: none;
@@ -1713,6 +1711,13 @@ body {
 }
 
 @media (min-width:1200px) {
+	.home, .career{
+		margin-bottom: 20px;
+	}
+
+	.reports{
+		margin-bottom: 0;
+	}
 	#p2 {
 		display: none;
 	}
@@ -1742,10 +1747,6 @@ body {
 	}
 	.container {
 		max-width: 1110px;
-	}
-	.home {
-		margin-top: 40px;
-		margin-bottom: 100px;
 	}
 	.center {
 		max-width: 100%;
@@ -1826,6 +1827,9 @@ body {
 	.career-center {
 		display: flex;
 		align-items: center;
+		
+	margin-top: 20px;
+
 	}
 	.career-left {
 		width: 565px;
@@ -1921,10 +1925,12 @@ body {
 		margin-left: 0;
 		padding: 0;
 	}
+
 	.reports-center {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		margin-top: 50px;
 	}
 	.report-left .left-content {
 		width: 600px;
@@ -2009,11 +2015,6 @@ body {
 		line-height: 25px;
 		text-align: center;
 	}
-	.reports {
-		margin-bottom: 200px;
-		margin-top: 100px;
-	}
-
 	.download {
 		position: fixed;
 		top: 50%;
@@ -2036,14 +2037,4 @@ body {
 		text-align: center;
 		color: #525252;
 	}
-}
-
-@media (min-width:1200px){
-	.foot{
-	margin-bottom: 100px !important;
-}
-
-.career-center{
-	margin-top: 20px;
-}
 }
