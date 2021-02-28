@@ -69,9 +69,11 @@
 
 	/*$(window).on("scroll", function() {
 		if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) */ 
-	$(window).on('scroll', function() { 
-
-        if ($(window).scrollTop() >= $('#footer').offset().top + $('#footer').outerHeight() - window.innerHeight) {
+		jQuery(function($) { 
+            $('.div').on('scroll', function() { 
+                if ($(this).scrollTop() + 
+                    $(this).innerHeight() >=  
+                    $(this)[0].scrollHeight)  {
 			
 			var pageURL = $(location).attr("href");
 
@@ -175,7 +177,8 @@
 
 		};
 		
-	});
+	}); 
+}); 
 	
 	$('#first-li').click(function(e) {
 			
