@@ -52,6 +52,12 @@
 		$("ul.nav.navbar-nav li a").click(function () {
 			$(".navbar-collapse").removeClass("in");
 		})
+
+		$(window).on('popstate', function(event) {
+			var pageURL1 = $(location).attr("href");
+			window.location = pageURL1;
+			window.focus();
+		   });
 	});
 
 	$(".downloadLink").click(
