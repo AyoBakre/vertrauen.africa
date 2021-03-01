@@ -1491,6 +1491,7 @@ footer{
 		color: #000000;
 		text-align: left;
 	}
+	
 	.report-para li {
 		margin: 0 auto;
 		width: 100%;
@@ -1503,6 +1504,7 @@ footer{
 		line-height: 25px;
 		color: #000000;
 	}
+
 	.report-para .inner-list li {
 		list-style: none;
 		font-family: Avenir;
@@ -1511,7 +1513,7 @@ footer{
 		font-size: 16px;
 		line-height: 19px;
 		color: #02C5AF;
-		margin-left: -30px;
+		margin-left: -50px;
 		padding-top: 15px;
 	}
 	.report-para a {
