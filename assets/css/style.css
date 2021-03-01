@@ -316,8 +316,19 @@ footer{
 	display: none;
 }
 
+#footer #fh2{
+	display: none;
+}
+
 
 @media (max-width: 600px) {
+	#footer #fh, #fh1{
+		display: none;
+	}
+
+	#footer #fh2{
+		display: inline-block;
+	}
 	#footer .right {
 		float: none;
 		text-align: center;
