@@ -747,6 +747,13 @@ footer{
 		margin-bottom: 25px ;
 		margin-top: 20px;
 	}
+	#bh{
+		display: none;
+	}
+
+	#bh1{
+		display: inline-block;
+	}
 	.box-text {
 		position: absolute;
 		top: 25px;
