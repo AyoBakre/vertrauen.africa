@@ -74,7 +74,10 @@
 	);
 
 	//Infinite Scroll
-	$(window).on("scroll", function() {
+	setTimeout(
+		function() 
+		{
+		$(window).on("scroll", function() {
 	//page height
 	var scrollHeight = $(document).height();
 	//scroll position
@@ -182,7 +185,8 @@
 
 			}
 		}
-	});
+		});
+	}, 10000);
 	
 	$('#first-li').click(function(e) {
 			
