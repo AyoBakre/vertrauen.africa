@@ -74,13 +74,16 @@
 	);
 
 	//Infinite Scroll
-	$(window).on("scroll", function() {
-	//page height
-	var scrollHeight = $(document).height();
-	//scroll position
-	var scrollPos = $(window).height() + $(window).scrollTop();
-	// fire if the scroll position is 300 pixels above the bottom of the page
-	if(((scrollHeight - 300) >= scrollPos) / scrollHeight == 0){
+	let page = 1;
+	let currentscrollHeight: 0;
+	let lockScroll: false;
+
+	$(window).on("scroll", () => {
+    const scrollHeight = $(document).height() as number;
+    const scrollPos = Math.floor($(window).height() + $(window).scrollTop());
+    const isBottom = scrollHeight - 300 < scrollPos;
+
+    if (isBottom && currentscrollHeight < scrollHeight) {
 			
 			var pageURL = $(location).attr("href");
 
@@ -181,6 +184,7 @@
 			else{
 
 			}
+			currentscrollHeight = scrollHeight;
 		}
 	});
 	
