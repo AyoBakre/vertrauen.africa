@@ -82,7 +82,6 @@
 	var scrollPos = $(window).height() + $(window).scrollTop();
 	// fire if the scroll position is 300 pixels above the bottom of the page
 	if(((scrollHeight - 1) >= scrollPos) / scrollHeight == 0){
-		console.log('works')
 		
 			var pageURL = $(location).attr("href");
 			
