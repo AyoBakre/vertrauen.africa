@@ -73,13 +73,8 @@
 		}
 	);
 
-	/*$(window).on("scroll", function() {
-		if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) */ 
-		jQuery(function($) { 
-            $('.div').on('scroll', function() { 
-                if ($(this).scrollTop() + 
-                    $(this).innerHeight() >=  
-                    $(this)[0].scrollHeight)  {
+	$(window).scroll(function() {
+		if ($(window).scrollTop() == $(document).height() - $(window).height()) {
 			
 			var pageURL = $(location).attr("href");
 
@@ -183,8 +178,8 @@
 
 		};
 		
-	}); 
-}); 
+	
+});
 	
 	$('#first-li').click(function(e) {
 			
