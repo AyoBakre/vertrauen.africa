@@ -23,13 +23,13 @@
     .container{
         max-width: 100%;
     }
-    
     .center{
         position: relative;
     }
     
     .new-left{
-        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
     
     .about-title{
@@ -60,7 +60,7 @@
     }
     .box-container{
         position: absolute;
-        top: 130px;
+        top: 150px;
         right: 0;
     }
     .box{
@@ -99,5 +99,16 @@
     #diff-box{
         right: 100px;
     }
-    
+
+    #footer p{
+font-size: 10px;
+line-height: 14px;
+    }
+    #footer .right br{
+        display: none;
+    }
+
+    #footer .right #fh3{
+        display: inline-block;
+    }
 }
