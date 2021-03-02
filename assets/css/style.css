@@ -481,14 +481,14 @@ footer{
 		color: #FFFFFF;
 		position: absolute;
 		top: 105px;
-		left: 130px;
+		left: 110px;
 	}
 	.box-img {
 		width: 90px;
 		height: 90px;
 		position: absolute;
-		top: 35px;
-		right: 5px;
+		top: 30px;
+		right: 10px;
 	}
 	.career-center {
 		display: flex;
@@ -1614,7 +1614,6 @@ footer{
 		font-size: 48px;
 		line-height: 66px;
 		color: #1E305E;
-		;
 	}
 	.para p {
 		font-family: Avenir;
