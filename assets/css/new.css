@@ -1,17 +1,6 @@
-@font-face {
-    font-family: 'AvenirLTStd-Roman';
-    src:url('AvenirLTStd-Roman.woff') format('woff'),
-          url('AvenirLTStd-Roman.woff2') format('woff2'),
-          url('AvenirLTStd-Roman.eot'),
-          url('AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
-          url('AvenirLTStd-Roman.otf') format('truetype');
-  
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  html,body { font-family: 'AvenirLTStd-Roman' !important; }
+html, body, h1, h2, h3, p, span, a{
+    font-family: 'Roboto', sans-serif !important; 
+}
 
 @media (max-width:1199px){
     #mobile{
@@ -44,7 +33,7 @@
     
     .new-left{
         margin-top: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     
     .about-title{
