@@ -53,14 +53,14 @@ html, body, h1, h2, h3, p, span, a{
     
     .para-new{
         margin-top: 70px;
-        width: 600px;
+        width: auto;
     height: 275px;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    color: #386C66;
+    color: #000000;
     }
     .box-container{
         position: absolute;
@@ -75,7 +75,7 @@ html, body, h1, h2, h3, p, span, a{
     border-radius: 20px;
     
     }
-    
+
     .box-img {
         width: 67px;
         height: 67px;
