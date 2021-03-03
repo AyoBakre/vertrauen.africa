@@ -1,3 +1,7 @@
+html, body, h1, h2, h3, p, span, a{
+    font-family: 'larkenregular',  !important; 
+}
+
 @media (max-width:1199px){
     #mobile{
         display:inline-block
