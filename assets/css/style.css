@@ -27,7 +27,7 @@
 
 }
 
-h1, p {
+html, body, h1, p, h2, a,span {
     font-family:  'larkenregular' !important; 
 }
 
@@ -455,10 +455,10 @@ footer{
 		font-weight: normal;
 		font-size: 16px;
 		line-height: 25px;
-		color: #386C66;
+		color: #000000;
 		text-align: left;
 	}
-	.para p a {
+	.about-title span, .para p a {
 		color: #02C5AF;
 	}
 	.box-container {
@@ -473,7 +473,7 @@ footer{
 		margin: 20px;
 		width: 300px;
 		height: 144px;
-		border-radius: 40px;
+		border-radius: 20px;
 		margin-right: 0 auto;
 		position: relative;
 		display: flex;
@@ -481,7 +481,7 @@ footer{
 		padding: 20px;
 		justify-content: center;
 		align-items: center;
-		background: #02C5AF;
+		background: #1E305E;
 		margin-left: 0 auto;
 		margin-bottom: 25px ;
 	}
@@ -506,16 +506,9 @@ footer{
 		font-size: 12px;
 		color: #FFFFFF;
 	}
-	.box-sign {
-		font-family: Avenir;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 10px;
-		line-height: 20px;
-		color: #FFFFFF;
-		position: absolute;
-		top: 105px;
-		left: 110px;
+	.box-text span {
+		
+		color: #02C5AF;
 	}
 	.box-img {
 		width: 90px;
@@ -629,6 +622,8 @@ footer{
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}.report-title span{
+		color: #02C5AF;
 	}
 	.report-para {
 
@@ -669,21 +664,30 @@ footer{
 	.report-para a {
 		color: #02C5AF;
 	}
+	
+	.report-right{
+		margin-top: 60px;
+		
+	}
+	#report-img{
+		width: 250px;
+	}
 	.report-box {
-		margin-top: 30px;
 		background: #02C5AF;
-		border-radius: 31px;
-		height: 200px;
-		width: 290px;
+		height: 120px;
+		width: 250px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		overflow: hidden;
+		overflow: hidden;position: absolute;
+		top: 70%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	.report-box p {
 		text-align: center;
 		color: #ffffff;
-		font-size: 15px;
+		font-size: 18px;
 	}
 	.report-box a {
 		color: #ffffff;
@@ -692,7 +696,7 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 15px;
+		font-size: 18px;
 		line-height: 25px;
 		text-align: center;
 	}
@@ -718,6 +722,17 @@ footer{
 		text-align: center;
 		color: #525252;
 	}
+	#footer p{
+		font-size: 10px;
+		line-height: 14px;
+			}
+			#footer .right br{
+				display: none;
+			}
+		
+			#footer .right #fh3{
+				display: inline-block;
+			}
 }
 
 @media (max-width:499px) and (min-width:400px) {
@@ -760,12 +775,12 @@ footer{
 		font-weight: normal;
 		font-size: 17px;
 		line-height: 25px;
-		color: #386C66;
+		color: #000000;
 		text-align: left;
 	}
-	.para p a {
-		color: #02C5AF;
-	}
+	.about-title span, .para a{
+        color: #02C5AF
+    }
 	.box-container {
 		display: flex;
 		flex-direction: column;
@@ -778,7 +793,8 @@ footer{
 		margin: 20px;
 		width: 370px;
 		height: 144px;
-		border-radius: 40px;
+		background: #1E305E;
+		border-radius: 20px;
 		margin-right: 0;
 		position: relative;
 		display: flex;
@@ -786,7 +802,6 @@ footer{
 		padding: 20px;
 		justify-content: center;
 		align-items: center;
-		background: #02C5AF;
 		
 		margin: 0 auto;
 		margin-bottom: 25px ;
@@ -812,22 +827,15 @@ footer{
 		font-size: 14px;
 		color: #FFFFFF;
 	}
-	.box-sign {
-		font-family: Avenir;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 12px;
-		line-height: 20px;
-		color: #FFFFFF;
-		position: absolute;
-		top: 105px;
-		left: 150px;
+
+	.box-text span {
+		color: #02C5AF;
 	}
 	.box-img {
 		width: 90px;
 		height: 90px;
 		position: absolute;
-		top: 30px;
+		top: 40px;
 		right: 11px;
 	}
 
@@ -931,7 +939,9 @@ footer{
 		margin-left: 0;
 		padding: 0;
 	}
-
+	.report-title span{
+		color: #02C5AF;
+	}
 	.reports-center {
 		display: flex;
 		align-items: center;
@@ -975,22 +985,29 @@ footer{
 	}
 	.report-para a {
 		color: #02C5AF;
+	}.report-right{
+		margin-top: 60px;
+		
+	}
+	#report-img{
+		width: 300px;
 	}
 	.report-box {
-		margin-top: 30px;
 		background: #02C5AF;
-		border-radius: 31px;
-		height: 200px;
-		width: 290px;
+		height: 130px;
+		width: 300px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		overflow: hidden;
+		overflow: hidden;position: absolute;
+		top: 75%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	.report-box p {
 		text-align: center;
 		color: #ffffff;
-		font-size: 15px;
+		font-size: 18px;
 	}
 	.report-box a {
 		color: #ffffff;
@@ -999,7 +1016,7 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 15px;
+		font-size: 18px;
 		line-height: 25px;
 		text-align: center;
 	}
@@ -1025,7 +1042,17 @@ footer{
 		text-align: center;
 		color: #525252;
 	}
-
+	#footer p{
+		font-size: 10px;
+		line-height: 14px;
+			}
+			#footer .right br{
+				display: none;
+			}
+		
+			#footer .right #fh3{
+				display: inline-block;
+			}
 	
 }
 
@@ -1070,12 +1097,12 @@ footer{
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
-		color: #386C66;
+		color: #000000;
 		text-align: left;
 	}
-	.para p a {
-		color: #02C5AF;
-	}
+	.about-title span, .para a{
+        color: #02C5AF
+    }
 	.box-container {
 		display: flex;
 		flex-direction: column;
@@ -1096,7 +1123,9 @@ footer{
 		padding: 20px;
 		justify-content: center;
 		align-items: center;
-		background: #02C5AF;
+		
+		background: #1E305E;
+		border-radius: 20px;
 		
 		margin: 0 auto;
 		margin-bottom: 25px ;
@@ -1112,19 +1141,11 @@ footer{
 		font-weight: normal;
 		font-style: normal;
 		line-height: 25px;
-		font-size: 16px;
+		font-size: 14px;
 		color: #FFFFFF;
 	}
-	.box-sign {
-		font-family: Avenir;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 13px;
-		line-height: 20px;
-		color: #FFFFFF;
-		position: absolute;
-		top: 105px;
-		left: 200px;
+	.box-text span {
+		color: #02C5AF;
 	}
 	.box-img {
 		width: 112px;
@@ -1233,7 +1254,9 @@ footer{
 		margin-left: 0;
 		padding: 0;
 	}
-
+	.report-title span{
+		color: #02C5AF;
+	}
 	.reports-center {
 		display: flex;
 		align-items: center;
@@ -1278,16 +1301,24 @@ footer{
 	.report-para a {
 		color: #02C5AF;
 	}
+	.report-right{
+		margin-top: 60px;
+		
+	}
+	#report-img{
+		width: 400px;
+	}
 	.report-box {
 		background: #02C5AF;
-		border-radius: 31px;
-		height: 200px;
-		width: 400px;
+		height: 150px;
+		width: 350px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		overflow: hidden;
-		margin-top: 30px;
+		overflow: hidden;position: absolute;
+		top: 80%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	.report-box p {
 		text-align: center;
@@ -1327,9 +1358,24 @@ footer{
 		text-align: center;
 		color: #525252;
 	}
+	#footer p{
+		font-size: 10px;
+		line-height: 14px;
+			}
+			#footer .right br{
+				display: none;
+			}
+		
+			#footer .right #fh3{
+				display: inline-block;
+			}
 }
 
 @media (max-width:1199px) and (min-width:600px) {
+	.logo{
+		width: 142px;
+		height: 35px;
+	margin-top: 7px;}
 	.center {
 		flex-direction: column;
 	}
@@ -1353,10 +1399,15 @@ footer{
 		color: #1E305E;
 		text-align: center;
 	}
+	
+	.about-title span, .para a{
+        color: #02C5AF
+    }
 	.para {
 		padding-top: 30px;
 		max-width: 80%;
 		margin: 0 auto;
+		color: #000000;;
 	}
 	.para p {
 		width: 100%;
@@ -1365,7 +1416,7 @@ footer{
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
-		color: #386C66;
+		color: #000000;
 		text-align: left;
 	}
 	.box-container {
@@ -1380,7 +1431,7 @@ footer{
 		margin: 20px;
 		width: 538px;
 		height: 144px;
-		border-radius: 40px;
+		border-radius: 20px;
 		margin-right: 0;
 		position: relative;
 		display: flex;
@@ -1388,7 +1439,7 @@ footer{
 		padding: 20px;
 		justify-content: center;
 		align-items: center;
-		background: #02C5AF;
+		background: #1E305E;
 	}
 	.box-text {
 		position: absolute;
@@ -1403,16 +1454,8 @@ footer{
 		font-size: 18px;
 		color: #FFFFFF;
 	}
-	.box-sign {
-		font-family: Avenir;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 15px;
-		line-height: 20px;
-		color: #FFFFFF;
-		position: absolute;
-		top: 105px;
-		left: 260px;
+	.box-text span{
+		color: #02C5AF;
 	}
 	.box-img {
 		width: 112px;
@@ -1543,7 +1586,9 @@ footer{
 		color: #000000;
 		text-align: left;
 	}
-	
+	.report-title span{
+		color: #02C5AF;
+	}
 	.report-para li {
 		margin: 0 auto;
 		width: 100%;
@@ -1571,16 +1616,24 @@ footer{
 	.report-para a {
 		color: #02C5AF;
 	}
+	.report-right{
+		margin-top: 60px;
+		
+	}
+	#report-img{
+		width: 500px;
+	}
 	.report-box {
 		background: #02C5AF;
-		border-radius: 31px;
-		height: 290px;
+		height: 190px;
 		width: 400px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		overflow: hidden;
-		margin-top: 50px;
+		overflow: hidden;position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 	.report-box p {
 		text-align: center;
@@ -1620,13 +1673,25 @@ footer{
 		text-align: center;
 		color: #525252;
 	}
-
+	#footer p{
+		font-size: 10px;
+		line-height: 14px;
+			}
+		
+			#footer .right #fh3{
+				display: inline-block;
+			}
 }
 
 @media (min-width:1200px) {
+
+	.logo{
+		width: 142px;
+		height: 35px;
+	}
 	.home, .career{
 		margin-top: 20px;
-		margin-bottom: 20px;
+		margin-bottom: 50px;
 	}
 
 	.reports{
@@ -1635,11 +1700,6 @@ footer{
 	}
 	#p2 {
 		display: none;
-	}
-	.para {
-		padding-top: 30px;
-		max-width: 400px;
-		text-align: left;
 	}
 	.about-title {
 		font-family: Avenir;
@@ -1655,38 +1715,46 @@ footer{
 		font-weight: normal;
 		font-size: 18px;
 		line-height: 25px;
-color: #386C66;
+color: #000000;
 
 	}
 	.para p a {
 		color: #02C5AF;
 	}
 	.container {
-		width: 90%;
+		max-width: 90%;
 	}
 	.center {
-		max-width: 100%;
 		position: relative;
 	}
 	.row-left {
-		width: 520px;
 		height: 448px;
 		margin-top: 0;
+		margin-top: 20px;
+        margin-bottom: 100px;
 	}
 	.about-title {
-		font-size: 48px;
-		text-align: left;
-		font-family: Avenir;
-		font-style: normal;
-		font-weight: 800;
-		font-size: 48px;
-		line-height: 66px;
-		color: #1E305E;
+		width: 583px;
+    height: 203px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96.4637px;
+    line-height: 109px;
+    color: #1E305E;
 	}
+	.about-title span, .para a{
+        color: #02C5AF
+    }
 	.para {
-		text-align: left;
-		margin-left: 0;
-		margin-top: 30px;
+		margin-top: 70px;
+        width: auto;
+    height: 275px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
 	}
 	.box-container {
 		display: flex;
@@ -1695,6 +1763,9 @@ color: #386C66;
 		align-items: center;
 		margin-top: 0;
 		margin-right: 0;
+		position: absolute;
+        top: 150px;
+        right: 0;
 	}
 	.box {
 		margin: 20px;
@@ -1708,39 +1779,37 @@ color: #386C66;
 		padding: 20px;
 		justify-content: center;
 		align-items: center;
-		background: #02C5AF;
+		right: 0;
+    width: 378.29px;
+    height: 106.6px;
+    background: #1E305E;
+    border-radius: 20px;
 	}
 	.box-text {
 		position: absolute;
-		top: 35px;
-		left: 50px;
+        top: 20px;
+        left:25px;
 	}
 	.box-text p {
-		font-family: Avenir;
-		font-weight: normal;
-		font-style: normal;
-		line-height: 25px;
-		font-size: 18px;
-		color: #FFFFFF;
+		font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
 	}
-	.box-sign {
-		font-family: Avenir;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 15px;
-		line-height: 20px;
-		color: #FFFFFF;
-		position: absolute;
-		top: 105px;
-		left: 260px;
-	}
+	
 	.box-img {
-		width: 112px;
-		height: 112px;
-		position: absolute;
-		top: 16px;
-		right: 26px;
+		width: 67px;
+        height: 67px;
+        position: absolute;
+        top: 20px;
+        right: 12px;
 	}
+	.box-text span {
+		color: #02C5AF;
+		}
+		
+		#diff-box{
+			right: 100px;
+		}
 	.career-center {
 	margin-top: 20px;
 	}
@@ -1889,15 +1958,25 @@ margin-bottom: 60px;
 		width: 104px;
 		height: 19px;
 	}
+	#report-img{
+		margin-top: 90px;
+height: 526px;
+	}
+	.report-right{
+		position: absolute;
+		right: 0;
+	}
 	.report-box {		
+width: 514px;
+height: 156px;
 		background: #02C5AF;
-		border-radius: 31px;
-		height: 290px;
-		width: 490px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;
+		position: absolute;
+		top: 400px;
+		right: 120px;
 	}
 	.report-box p {
 		text-align: center;
@@ -1937,4 +2016,15 @@ margin-bottom: 60px;
 		text-align: center;
 		color: #525252;
 	}
+	#footer p{
+		font-size: 10px;
+		line-height: 14px;
+			}
+			#footer .right br{
+				display: none;
+			}
+		
+			#footer .right #fh3{
+				display: inline-block;
+			}
 }
