@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'AvenirLTStd-Roman';
+    src:url('AvenirLTStd-Roman.woff') format('woff'),
+          url('AvenirLTStd-Roman.woff2') format('woff2'),
+          url('AvenirLTStd-Roman.eot'),
+          url('AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+          url('AvenirLTStd-Roman.otf') format('truetype');
+  
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  html,body { font-family: 'AvenirLTStd-Roman' !important; }
+
 @media (max-width:1199px){
     #mobile{
         display:inline-block
