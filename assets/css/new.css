@@ -25,7 +25,7 @@ html, body, h1, h2, h3, p, span, a{
         display: none;
     }
     .container{
-        max-width: 100%;
+        width: 90%;  
     }
     .center{
         position: relative;
@@ -81,7 +81,7 @@ html, body, h1, h2, h3, p, span, a{
         height: 67px;
         position: absolute;
         top: 20px;
-        right: 26px;
+        right: 12px;
     }
     
     
