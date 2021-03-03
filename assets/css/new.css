@@ -1,5 +1,5 @@
 html, body, h1, h2, h3, p, span, a{
-    font-family:avenir, 'Lato', sans-serif !important; 
+    font-family: 'larkenregular', roboto, sans-serif !important; 
 }
 
 @media (max-width:1199px){
