@@ -667,7 +667,7 @@ footer{
 	
 	.report-right{
 		margin-top: 60px;
-		
+		position: relative;
 	}
 	#report-img{
 		width: 250px;
@@ -680,7 +680,7 @@ footer{
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;position: absolute;
-		top: 70%;
+		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
@@ -987,7 +987,7 @@ footer{
 		color: #02C5AF;
 	}.report-right{
 		margin-top: 60px;
-		
+		position: relative;
 	}
 	#report-img{
 		width: 300px;
@@ -1000,7 +1000,7 @@ footer{
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;position: absolute;
-		top: 75%;
+		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
@@ -1303,7 +1303,7 @@ footer{
 	}
 	.report-right{
 		margin-top: 60px;
-		
+		position: relative;
 	}
 	#report-img{
 		width: 400px;
@@ -1316,7 +1316,7 @@ footer{
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;position: absolute;
-		top: 80%;
+		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
@@ -1619,6 +1619,8 @@ footer{
 	.report-right{
 		margin-top: 60px;
 		
+			position: relative;
+			
 	}
 	#report-img{
 		width: 500px;
@@ -1630,8 +1632,9 @@ footer{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		overflow: hidden;position: absolute;
-		top: 85%;
+		overflow: hidden;
+		position: absolute;
+		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
