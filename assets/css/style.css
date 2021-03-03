@@ -27,8 +27,8 @@
 
 }
 
-h1, h2, h3, p, span, a{
-    font-family: sans-serif,  !important; 
+h1, p {
+    font-family:  'larkenregular' !important; 
 }
 
 
