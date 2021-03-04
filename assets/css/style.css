@@ -77,7 +77,7 @@ h1, h2 {
     font-family:  'larkenextrabold' !important; 
 }
 
-p, a, span{
+p, a, span, ul, li{
 	font-family:  'AvenirLTStd-Book' !important; 
 }
 body {
