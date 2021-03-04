@@ -670,6 +670,7 @@ footer{
 		position: relative;
 	}
 	#report-img{
+		border-radius: 31px;
 		width: 250px;
 	}
 	.report-box {
@@ -991,6 +992,7 @@ footer{
 	}
 	#report-img{
 		width: 300px;
+		border-radius: 31px;
 	}
 	.report-box {
 		background: #02C5AF;
@@ -1307,6 +1309,7 @@ footer{
 	}
 	#report-img{
 		width: 400px;
+		border-radius: 31px;
 	}
 	.report-box {
 		background: #02C5AF;
@@ -1624,6 +1627,7 @@ footer{
 	}
 	#report-img{
 		width: 500px;
+		border-radius: 31px;
 	}
 	.report-box {
 		background: #02C5AF;
@@ -1905,7 +1909,6 @@ color: #1E305E;
 		border-radius: 20px;
 		width: 504px;
 		height: 528px;
-		margin-right: -32px;
 	}
 
 	.report-title {
@@ -1961,6 +1964,8 @@ margin-bottom: 60px;
 		height: 19px;
 	}
 	#report-img{
+border-radius: 31px;
+width: 504px;
 		margin-top: 90px;
 height: 526px;
 	}
