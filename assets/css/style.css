@@ -1964,11 +1964,14 @@ color: #1E305E;
 	.row-right {
 		position: absolute;
 		right: 0;
-	}
-	.career-img {
-		border-radius: 20px;
 		width: 504px;
 		height: 528px;
+		border-radius: 20px;
+		overflow: hidden;
+	}
+	.career-img {
+		width: 932px;
+		height: 621px;
 	}
 
 	.report-title {
@@ -2023,21 +2026,36 @@ margin-bottom: 60px;
 		width: 104px;
 		height: 19px;
 	}
-	#report-img{
-border-radius: 31px;
+
+	.b-2{
+		display: none !important;
+	}
+
+
+	.report-right{
+		height: 528px;
 width: 504px;
-height: 526px;
+border-radius: 31px;
+overflow: hidden;
+	}
+	#report-img{height: 526px;
+		width: 789px;
 	}
 	.report-right{
 		position: absolute;
 		top: 27px;
 		right: 0;
 	}
+
+	.b-1{
+		display: inline-block !important;
+		display: flex !important;
+	}
 	.report-box {		
 width: 514px;
 height: 156px;
 		background: #02C5AF;
-		display: flex;
+		display: flex ;
 		justify-content: center;
 		align-items: center;
 		overflow: hidden;
