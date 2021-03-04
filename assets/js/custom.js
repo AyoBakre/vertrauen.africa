@@ -46,18 +46,10 @@
 			}, 800);
 			return false;
 		});
-
-
 		/* -~-~-  Mobile Menu hiddin on click ~-~-~- */  
 		$("ul.nav.navbar-nav li a").click(function () {
 			$(".navbar-collapse").removeClass("in");
 		})
-
-		$(window).on('popstate', function(event) {
-			var pageURL1 = $(location).attr("href");
-			window.location = pageURL1;
-			window.focus();
-		   });
 	});
 
 	$(".downloadLink").click(
@@ -73,119 +65,6 @@
 		}
 	);
 
-	//Infinite Scroll
-	
-	$(window).on("scroll", function() {
-	//page height
-	var scrollHeight = $(document).height();
-	//scroll position
-	var scrollPos = $(window).height() + $(window).scrollTop();
-	// fire if the scroll position is 300 pixels above the bottom of the page
-	if(((scrollHeight - 1) >= scrollPos) / scrollHeight == 0){
-		
-			var pageURL = $(location).attr("href");
-			
-			if (pageURL=='https://ayobakre.github.io/vertrauen.africa/index.html'){
-
-				const nextTitle = 'vertrauen - careers';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
-				const nextState = { additionalInformation: 'vertrauen careers' };
-				window.history.pushState(nextState, nextTitle, nextURL);
-				// This will create a new entry in the browser's history, without reloading
-
-				$('#first').css('display', 'none');
-				$('#second').css('display', 'inline-block');
-				$('#third').css('display', 'none');
-				$("html, body").animate({
-					scrollTop: 0
-					}, 800);
-				$('#first-li').removeClass('active');
-				$('#second-li').addClass('active');
-				$('#third-li').removeClass('active');
-			}
-
-			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/'){
-
-				const nextTitle = 'vertrauen - careers';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
-				const nextState = { additionalInformation: 'vertrauen careers' };
-				window.history.pushState(nextState, nextTitle, nextURL);
-				// This will create a new entry in the browser's history, without reloading
-
-				$('#first').css('display', 'none');
-				$('#second').css('display', 'inline-block');
-				$('#third').css('display', 'none');
-				$("html, body").animate({
-					scrollTop: 0
-					}, 800);
-				$('#first-li').removeClass('active');
-				$('#second-li').addClass('active');
-				$('#third-li').removeClass('active');
-			}
-
-			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/about.html'){
-
-				const nextTitle = 'vertrauen - careers';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/careers.html';
-				const nextState = { additionalInformation: 'vertrauen careers' };
-				window.history.pushState(nextState, nextTitle, nextURL);
-				// This will create a new entry in the browser's history, without reloading
-
-				$('#first').css('display', 'none');
-				$('#second').css('display', 'inline-block');
-				$('#third').css('display', 'none');
-				$("html, body").animate({
-					scrollTop: 0
-					}, 800);
-				$('#first-li').removeClass('active');
-				$('#second-li').addClass('active');
-				$('#third-li').removeClass('active');
-			}
-
-			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/careers.html'){
-
-				const nextTitle = 'vertrauen - reports';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/reports.html';
-				const nextState = { additionalInformation: 'vertrauen reports' };
-				window.history.pushState(nextState, nextTitle, nextURL);
-				// This will create a new entry in the browser's history, without reloading
-
-				$('#first').css('display', 'none');
-				$('#second').css('display', 'none');
-				$('#third').css('display', 'inline-block');
-				$("html, body").animate({
-					scrollTop: 0
-					}, 800);
-				$('#first-li').removeClass('active');
-				$('#second-li').removeClass('active');
-				$('#third-li').addClass('active');
-			}
-
-			else if (pageURL=='https://ayobakre.github.io/vertrauen.africa/reports.html'){
-
-				const nextTitle = 'vertrauen - about';
-				const nextURL = 'https://ayobakre.github.io/vertrauen.africa/about.html';
-				const nextState = { additionalInformation: 'vertrauen about' };
-				window.history.pushState(nextState, nextTitle, nextURL);
-				// This will create a new entry in the browser's history, without reloading
-
-				$('#first').css('display', 'inline-block');
-				$('#second').css('display', 'none');
-				$('#third').css('display', 'none');
-				$("html, body").animate({
-					scrollTop: 0
-					}, 800);
-				$('#first-li').addClass('active');
-				$('#second-li').removeClass('active');
-				$('#third-li').removeClass('active');
-			}
-			else{
-
-			}
-		
-		}
-	
-	});
 	
 	$('#first-li').click(function(e) {
 			
