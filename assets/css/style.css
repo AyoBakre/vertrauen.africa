@@ -1740,7 +1740,7 @@ footer{
 
 @media (min-width: 1199px) and (max-width: 1280px){
 	.para p{
-		font-size: 16.5px !important;
+		font-size: 16px !important;
 	}
 	
 }
@@ -1774,7 +1774,7 @@ footer{
 		font-family: Avenir;
 		font-style: normal;
 		font-weight: normal;
-		font-size: 18px;
+		font-size: 17px;
 		line-height: 25px;
 color: #000000;
 
@@ -1783,7 +1783,7 @@ color: #000000;
 		color: #02C5AF;
 	}
 	.container {
-		max-width: 90%;
+		max-width: 92%;
 	}
 	.center {
 		position: relative;
@@ -1809,7 +1809,7 @@ color: #000000;
     font-family: Avenir;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 25px;
     color: #000000;
 	}
