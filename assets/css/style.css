@@ -2021,11 +2021,11 @@ margin-bottom: 60px;
 	#report-img{
 border-radius: 31px;
 width: 504px;
-		margin-top: 90px;
 height: 526px;
 	}
 	.report-right{
 		position: absolute;
+		top: 27px;
 		right: 0;
 	}
 	.report-box {		
@@ -2037,7 +2037,7 @@ height: 156px;
 		align-items: center;
 		overflow: hidden;
 		position: absolute;
-		top: 400px;
+		top: 300px;
 		right: 120px;
 	}
 	.report-box p {
