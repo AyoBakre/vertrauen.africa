@@ -1824,6 +1824,13 @@ color: #000000;
         top: 85px;
         right: 0;
 	}
+
+	.box-text-a{
+		display: none !important;
+	}
+	.box-text-b{
+		display: inline !important;
+	}
 	.box {
 		margin: 20px;
 		width: 538px;
@@ -1845,7 +1852,7 @@ color: #000000;
 	.box-text {
 		position: absolute;
         top: 20px;
-        left:25px;
+        left:18px;
 	}
 	.box-text p {
 		font-size: 14px;
