@@ -77,7 +77,7 @@ h1, h2 {
     font-family:  'larkenextrabold' !important; 
 }
 
-p, a, span, ul, li{
+p, a, ul, li{
 	font-family:  'AvenirLTStd-Book' !important; 
 }
 body {
@@ -368,6 +368,7 @@ body {
 }
 footer{
 	flex-shrink: 0;
+	padding: 10px;
 }
 
 #footer .left {
@@ -508,6 +509,10 @@ footer{
 	}
 	.about-title span, .para p a {
 		color: #02C5AF;
+	}
+
+	.about-title span{
+		font-family:  'larkenextrabold' !important;
 	}
 	.box-container {
 		display: flex;
@@ -1783,7 +1788,7 @@ color: #000000;
 		color: #02C5AF;
 	}
 	.container {
-		max-width: 92%;
+		max-width: 90%;
 	}
 	.center {
 		position: relative;
