@@ -673,6 +673,7 @@ footer{
 		height: 303px;
 		margin-left: 0;
 		padding: 0;
+		object-fit: cover;
 	}
 	.reports-center {
 		display: flex;
@@ -732,6 +733,7 @@ footer{
 	#report-img{
 		width: 400px;
 		height: 400px;
+		object-fit: cover;
 	}
 	.report-box {
 		background: #02C5AF;
@@ -1003,6 +1005,7 @@ footer{
 		height: 303px;
 		margin-left: 0;
 		padding: 0;
+		object-fit: cover;
 	}
 	.report-title span{
 		color: #02C5AF;
@@ -1320,7 +1323,7 @@ footer{
 		margin-top: 50px;
 		border-radius: 20px;
 		width: 428px;
-		height: 503px;
+		height: 483px;
 		overflow: hidden;
 	}
 	.career-img {
@@ -1329,6 +1332,7 @@ footer{
 		height: 503px;
 		margin-left: 0;
 		padding: 0;
+		object-fit: cover;
 	}
 	.report-title span{
 		color: #02C5AF;
@@ -1643,7 +1647,7 @@ footer{
 		margin-top: 50px;
 		border-radius: 20px;
 		width: 428px;
-		height: 503px;
+		height: 490px;
 		overflow: hidden;
 	}
 	.career-img {
@@ -1652,6 +1656,7 @@ footer{
 		height: 503px;
 		margin-left: 0;
 		padding: 0;
+		object-fit: cover;
 	}
 
 	.reports-center {
@@ -1997,13 +2002,15 @@ color: #1E305E;
 		position: absolute;
 		right: 0;
 		width: 504px;
-		height: 528px;
+		height: 530px;
 		border-radius: 20px;
 		overflow: hidden;
+		
 	}
 	.career-img {
 		width: 932px;
-		height: 621px;
+		height: 540px;
+		object-fit: cover;
 	}
 
 	.report-title {
@@ -2072,6 +2079,7 @@ overflow: hidden;
 	}
 	#report-img{height: 526px;
 		width: 789px;
+		object-fit: contain;
 	}
 	.report-right{
 		position: absolute;
