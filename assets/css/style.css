@@ -1824,8 +1824,8 @@ color: #000000;
 	.para p a {
 		color: #02C5AF;
 	}
-	.container {
-		max-width: 90%;
+	.container-fluid {padding-left: 100px;
+		padding-right: 100px;
 	}
 	.center {
 		position: relative;
