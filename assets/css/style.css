@@ -1456,7 +1456,7 @@ footer{
 			}
 }
 
-@media (max-width:1199px) and (min-width:600px) {
+@media (max-width:1275px) and (min-width:600px) {
 	.logo{
 		width: 142px;
 		height: 35px;
@@ -1780,13 +1780,7 @@ footer{
 			}
 }
 
-@media (min-width: 1199px) and (max-width: 1280px){
-	.para p{
-		font-size: 16px !important;
-	}
-	
-}
-@media (min-width:1200px) {
+@media (min-width:1276px) {
 
 	.logo{
 		width: 142px;
