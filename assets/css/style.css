@@ -1,9 +1,9 @@
 h1, h2 {
-    font-family:  'larkenextrabold' !important; 
+    font-family:  'larkenextrabold', sans-serif !important; 
 }
 
 p, a, ul, li{
-	font-family:  'AvenirLTStd-Book' !important; 
+	font-family:  'AvenirLTStd-Book', sans-serif !important; 
 }
 body {
 	background-color: #ffffff;
